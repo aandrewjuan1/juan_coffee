@@ -11,7 +11,7 @@
 3. Remove the `#` at the beginning to uncomment it and enable `mod_rewrite`.
 4. Restart Apache from the XAMPP Control Panel.
 
-## After making the `.htaccess` file, paste this contennt:
+## After making the `.htaccess` file, paste this content:
 
 ```apache
 # Enable the Rewrite Engine
