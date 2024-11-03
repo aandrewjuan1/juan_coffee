@@ -1,20 +1,17 @@
-# Enable `mod_rewrite` in Apache
+# SETUP INSTRUCTIONS
 
-MVC design yung ginamit ko sir para sa app na to, so need niya ng URL routing which is by default hindi naka siya naka-on. 
+1. MVC design yung ginamit ko sir para sa app na to, so need niya ng URL routing which is by default hindi naka siya naka-on sa XAMPP. May kailangan baguhin sa config.
+2. Also, kailangan niyo rin po gumawa ng `.htaccess` file.
+3. Lastly, Make sure din sir na yung name ng project or folder na ilalagay niyo sa htdocs is "juan_coffee"
 
-Hindi po siya gagana if di naka enable yung mod_rewrite sa apache, so may kailangang baguhin sa config.
-
-Make sure din sir na yung name ng project or folder na ilalagay niyo sa htdocs is "juan_coffee"
-## Steps to enable routing:
+## Steps to enable routing or `mod_rewrite` in Apache:
 
 1. Open XAMPP then go to Apache configuration file: `httpd.conf` (located between Admin and Logs in XAMPP Control Panel).
 2. Find the line: `#LoadModule rewrite_module modules/mod_rewrite.so`.
 3. Remove the `#` at the beginning to uncomment it and enable `mod_rewrite`.
 4. Restart Apache from the XAMPP Control Panel.
 
-# After niyo po ma-on sa Apache yung routing, gawa naman po kayo ng .htaccess file dito sa project na to.
-
-## Paste niyo po to:
+## After making the `.htaccess` file, paste this contennt:
 
 ```apache
 # Enable the Rewrite Engine
