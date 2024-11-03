@@ -12,13 +12,9 @@ Make sure din sir na yung name ng project or folder na ilalagay niyo sa htdocs i
 3. Remove the `#` at the beginning to uncomment it and enable `mod_rewrite`.
 4. Restart Apache from the XAMPP Control Panel.
 
-# Setup Instructions
+# After niyo po ma-on sa Apache yung routing, gawa naman po kayo ng .htaccess file dito sa project na to.
 
-## Creating a `.htaccess` file
-
-To set up proper URL routing, directory access control, and security settings for this project, please create a `.htaccess` file in the root directory of the project and paste the following code into it.
-
-### .htaccess Content
+## Paste niyo po to:
 
 ```apache
 # Enable the Rewrite Engine
